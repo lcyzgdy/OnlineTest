@@ -207,5 +207,17 @@
     <ClCompile Include="关押罪犯.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="字符串的排列.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="数组中出现次数超过一半的数字.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="最小的K个数.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="连续子数组的最大和.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
