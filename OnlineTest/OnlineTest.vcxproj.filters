@@ -219,5 +219,20 @@
     <ClCompile Include="连续子数组的最大和.cpp">
       <Filter>剑指Offer</Filter>
     </ClCompile>
+    <ClCompile Include="整数中1出现的次数.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="把数组排成最小的数.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="丑数.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="第一次只出现一次的字符.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="数组中的逆序对.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

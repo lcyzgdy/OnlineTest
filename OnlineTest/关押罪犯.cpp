@@ -65,7 +65,7 @@ int main()
 	int a, b, c;
 	for (int i = 1; i <= m; i++) // 至于为什么从1开始，当时应该是一时脑抽。
 	{
-		//scanf("%d %d %d", &a, &b, &c);
+		//scanf("%m_d %m_d %m_d", &a, &b, &c);
 		cin >> a >> b >> c;
 		w[i].u = a;
 		w[i].v = b;
