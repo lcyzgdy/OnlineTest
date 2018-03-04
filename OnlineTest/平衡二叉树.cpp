@@ -1,0 +1,26 @@
+#include<iostream>
+#include<algorithm>
+using namespace std;
+
+struct TreeNode {
+	int val;
+	struct TreeNode *left;
+	struct TreeNode *right;
+	TreeNode(int x) :
+		val(x), left(NULL), right(NULL) {
+	}
+};
+
+class Solution {
+	int TreeDepth(TreeNode* pRoot)
+	{
+		if (pRoot == nullptr) return 0;
+		//if (pRoot->left == nullptr && pRoot->right == nullptr) return 1;
+		return max(TreeDepth(pRoot->left), TreeDepth(pRoot->right)) + 1;
+	}
+public:
+	bool IsBalanced_Solution(TreeNode* pRoot) {
+		if (nullptr == pRoot) return true;
+		return abs(TreeDepth(pRoot->left) - TreeDepth(pRoot->right)) <= 1;
+	}
+};
