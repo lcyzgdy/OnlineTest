@@ -255,5 +255,25 @@
     <ClCompile Include="和为S的两个数字.cpp">
       <Filter>剑指Offer</Filter>
     </ClCompile>
+    <ClCompile Include="左旋转字符串.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="翻转单词顺序列.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="扑克牌顺子.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="孩子们的游戏（圆圈中最后剩下的数）.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TemplateTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
