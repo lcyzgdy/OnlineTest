@@ -270,6 +270,12 @@
     <ClCompile Include="TemplateTest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Tarjan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TemplateTest.h">
