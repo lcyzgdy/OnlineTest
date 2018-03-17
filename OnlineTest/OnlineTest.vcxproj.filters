@@ -276,6 +276,24 @@
     <ClCompile Include="SegmentTree.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="求1+2+3+...+n.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="不用加减乘除做加法.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="把字符串转换成整数.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="数组中重复的数字.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="构建乘积数组.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="正则表达式匹配.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TemplateTest.h">
