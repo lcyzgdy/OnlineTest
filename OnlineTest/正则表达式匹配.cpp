@@ -47,8 +47,8 @@ public:
 					str++;
 				}
 			}
-			if (*pp == '\0') return true;
 		}
+		if (*pp == '\0') return true;
 		if (*pp == '*' || *(pp + 1) == '*' && *(pp + 2) == '\0') return true;
 		return false;
 	}
@@ -59,8 +59,8 @@ using namespace std;
 int main()
 {
 	Solution a;
-	char aa[] = "a";
-	char bb[] = "ab*";
+	char aa[] = "aaa";
+	char bb[] = "a*a";
 	cout << a.match(aa, bb) << endl;
 	return 0;
 }
