@@ -303,6 +303,21 @@
     <ClCompile Include="链表中环的入口结点.cpp">
       <Filter>剑指Offer</Filter>
     </ClCompile>
+    <ClCompile Include="对称的二叉树.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="按之字形顺序打印二叉树.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉搜索树的第k个节点.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="数据流中的中位数.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="滑动窗口的最大值.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TemplateTest.h">

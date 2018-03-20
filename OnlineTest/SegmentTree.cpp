@@ -5,31 +5,42 @@
 using namespace std;
 
 template<typename T>
-class ZkwSegmengTree
+class ZkwSegmentTree
 {
 	vector<T> m_arr;
+	int m_size;
 public:
-	ZkwSegmengTree() = default;
-	ZkwSegmengTree(int size)
+	ZkwSegmentTree() = default;
+	ZkwSegmentTree(int size)
 	{
-		
 		m_arr.reserve(size);
 	};
 
-	void Add(int l, int r, T&& v)
+	void Build(initializer_list<T> data)
 	{
-		while (r > m_arr.size())
-		{
-			m_arr.emplace_back(T a);
-		}
+		for (m_size = 1; m_size < data.size(); m_size <<= 1);
+		m_arr.reserve(m_size);
+		for (int i = 0; i < data.size(); i++) m_arr[i + (m_size << 1)] = data[i];
+		for (int i = m_size << 1; i; i--) m_arr[i] = max(m_arr[i << 1], m_arr[i << 1 | 1]);
 	}
 
-	void Add(int l, int r, const T& v)
+	void Build(const vector<T>& data)
 	{
+		for (m_size = 1; m_size < data.size() + 1; m_size <<= 1);
+		m_arr.resize(m_size);
+		for (int i = 0; i < data.size(); i++) m_arr[i + (m_size >> 1)] = data[i];
+		for (int i = (m_size >> 1) - 1; i; i--)
+			m_arr[i] = max(m_arr[i << 1], m_arr[i << 1 | 1]);
 	}
 
-	T&& Sum(int l, int r)
+	void Modify(int x, const T& v)
 	{
+
+	}
+
+	T Max(int l, int r)
+	{
+
 	}
 
 	T Sum(int l, int r)
