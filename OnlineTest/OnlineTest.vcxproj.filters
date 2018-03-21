@@ -318,6 +318,12 @@
     <ClCompile Include="滑动窗口的最大值.cpp">
       <Filter>剑指Offer</Filter>
     </ClCompile>
+    <ClCompile Include="矩阵中的路径.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
+    <ClCompile Include="机器人的运动范围.cpp">
+      <Filter>剑指Offer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TemplateTest.h">
