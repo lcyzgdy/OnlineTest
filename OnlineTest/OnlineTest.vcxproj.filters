@@ -324,6 +324,18 @@
     <ClCompile Include="机器人的运动范围.cpp">
       <Filter>剑指Offer</Filter>
     </ClCompile>
+    <ClCompile Include="字符串距离.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数字字符.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="魔法阵.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="拼凑硬币.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TemplateTest.h">
