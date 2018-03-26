@@ -357,6 +357,27 @@
     <ClCompile Include="最长公共子括号序列.cpp">
       <Filter>Neteasy</Filter>
     </ClCompile>
+    <ClCompile Include="彩色的砖块.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="等差数列.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="交错01串.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="操作序列.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="独立的小易.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="堆棋子.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="疯狂队列.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TemplateTest.h">
