@@ -27,7 +27,7 @@ int main()
 				a++;
 			}
 		}
-		if (a == b && (c & 1) == 0) cout << "Yes" << endl;
+		if (a + (c & 1) <= b + 1) cout << "Yes" << endl;
 		else cout << "No" << endl;
 	}
 }
