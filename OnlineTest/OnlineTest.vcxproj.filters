@@ -19,6 +19,9 @@
     <Filter Include="剑指Offer">
       <UniqueIdentifier>{13c04264-2981-4e0d-bcec-a41ff6b0da9b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Neteasy">
+      <UniqueIdentifier>{ed38f904-0c7b-4be5-ade3-e11c72d58bb8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="OnlineTest.cpp">
@@ -335,6 +338,24 @@
     </ClCompile>
     <ClCompile Include="拼凑硬币.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="魔法币.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="相反数.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="字符串碎片.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="游历魔法王国.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="重排数列.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="最长公共子括号序列.cpp">
+      <Filter>Neteasy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
