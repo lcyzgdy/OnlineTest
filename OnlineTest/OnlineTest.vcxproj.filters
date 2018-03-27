@@ -414,6 +414,24 @@
     <ClCompile Include="堆砖块.cpp">
       <Filter>Neteasy</Filter>
     </ClCompile>
+    <ClCompile Include="字符串编码.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="最大和.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="推箱子.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="牛牛的闹钟.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="数对.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="被3整除.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TemplateTest.h">
