@@ -18,7 +18,7 @@ int main()
 	{
 		if (abs(q.front() - s[r]) < abs(q.back() - s[r]))
 		{
-			q.push_back(s[r]);
+			q.push_back(s[r]);+
 		}
 		else
 		{

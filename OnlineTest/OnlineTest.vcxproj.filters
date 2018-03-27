@@ -381,6 +381,39 @@
     <ClCompile Include="小易喜欢的数列.cpp">
       <Filter>Neteasy</Filter>
     </ClCompile>
+    <ClCompile Include="双核处理.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="赶去公司.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="调整队形.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="消除重复元素.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="魔力手环.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="工作安排.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="集合.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="奇怪的表达式求值.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="涂棋盘.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="小易记单词.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="堆砖块.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TemplateTest.h">
