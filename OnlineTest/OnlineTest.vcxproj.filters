@@ -378,6 +378,9 @@
     <ClCompile Include="疯狂队列.cpp">
       <Filter>Neteasy</Filter>
     </ClCompile>
+    <ClCompile Include="小易喜欢的数列.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TemplateTest.h">

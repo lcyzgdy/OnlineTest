@@ -14,7 +14,7 @@ int main()
 	sort(s, s + n);
 	q.push_back(s[0]);
 	int l = 1, r = n - 1;
-	while (l != r)
+	while (l <= r)
 	{
 		if (abs(q.front() - s[r]) < abs(q.back() - s[r]))
 		{
@@ -25,7 +25,7 @@ int main()
 			q.push_front(s[r]);
 		}
 		r--;
-		if (l == r) break;
+		if (l > r) break;
 		if (abs(q.front() - s[l]) < abs(q.back() - s[l]))
 		{
 			q.push_back(s[l]);
