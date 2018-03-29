@@ -432,6 +432,18 @@
     <ClCompile Include="被3整除.cpp">
       <Filter>Neteasy</Filter>
     </ClCompile>
+    <ClCompile Include="三角形.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="捡球小游戏.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="打怪兽.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
+    <ClCompile Include="字符串计算器.cpp">
+      <Filter>Neteasy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TemplateTest.h">
